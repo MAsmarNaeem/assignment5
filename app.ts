@@ -321,40 +321,56 @@
 
 // 13 // Write a ts program to count total number of notes in given amount &&&&&&&&
 
-//  alert(`For finding number of notes`)
+// alert(`checking notes`)
+// var amount:String|null=prompt( `enter amount`)
+// var amount1:Number=Number(amount)
 
-//  let amount1:string|null=prompt(`enter amount`)
-//  var amount:number=Number(amount1) 
-// document.write(`your entered amount is :${amount}`)
-// document.write("<br>")
- 
-// if(amount>=1000)
-// {
-//         document.write(`number of notes of 1000 is ${ (amount/1000 )} `) 
-//         amount=amount%2000
-// }
-// else if(amount>=500)
-// {
-//         document.write(`number of notes of 500 is ${(amount/500)} `)
-//         amount=amount%500
+// document.write(`your entered amount is ${(amount1)}`)
 
+// document.write("<br>")
+
+// if (amount1>=5000) {
+//     document.write(`notes in 5000 is ${parseInt(amount1/5000)}`)
+//     document.write("<br>")
+   
+//     document.write(`your remaining amount is ${amount1=amount1%5000}`)
+//     document.write("<br>")
+    
 // }
-// else if(amount>=100)
+// if (amount1>=1000)
 // {
-//         document.write(`number of notes of 100 is ${ (amount/100)} `)
-//         amount=amount%100
+//     document.write(`notes of 1000 is ${parseInt(amount1/1000)}`)
+//     document.write("<br>")
+//     document.write(`your remaining amount is ${amount1=amount1%1000}`)
+//     document.write("<br>")
 // }
-// else if(amount>=10)
-//  {
-//     document.write(`number of notes of 10 is ${ amount/10}`)
-//     amount=amount%10
-//  }
-//  else{
-//        document.write(`no amount`)
-//  }
-// document.write("<br>")
-// document.write("<br>")
-// document.write("<br>")
+// if (amount1>=500)
+// {
+//     document.write(`notes of 500 is ${parseInt(amount1/500)}`)
+//     document.write("<br>")
+//     document.write(`your remaining amount is ${amount1=amount1%500}`)
+//     document.write("<br>")
+// }
+// if (amount1>=100)
+// {
+//     document.write(`notes of 100 is ${parseInt(amount1/100)}`)
+//     document.write("<br>")
+//     document.write(`your remaining amount is ${amount1=amount1%100}`)
+//     document.write("<br>")
+// }
+// if (amount1>=10)
+// {
+//     document.write(`notes of 10 is ${parseInt(amount1/10)}`)
+//     document.write("<br>")
+//     document.write(`your remaining amount is ${amount1=amount1%10}`)
+//     document.write("<br>")
+// }
+// else{
+//     document.write(`you have not notes yet`)
+// }
+// // document.write("<br>")
+// // document.write("<br>")
+// // document.write("<br>")
 
 //                              //(----------------$$$$$$$$$-------------------)
 
